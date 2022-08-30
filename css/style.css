@@ -223,6 +223,16 @@ section .title::after{
     background: none;
 }
 
+.home .social ul li{
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
 /* about section styling */
 .about .title::after{
     content: "who i am";
@@ -279,9 +289,10 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: var(--color2);
-    content: "what i provide";
+    content: "what I did";
 }
 .services .serv-content .card{
+    height: 500px;
     width: calc(33% - 20px);
     background: var(--color4);
     text-align: center;
@@ -289,6 +300,13 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+.services .serv-content .card p{
+    margin-top: 10px;
+}
+.services .serv-content .card ul{
+    padding: 10px;
+    text-align: left;
 }
 .services .serv-content .card:hover{
     background: var(--color5);
@@ -299,7 +317,10 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.services .serv-content .card img{
+    border-radius: 6px;
+    border: 1px solid var(--color1);
+    max-height: 150px;
     font-size: 50px;
     color: var(--color5);
     transition: color 0.3s ease;

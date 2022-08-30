@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shai's Portfolio</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -24,9 +24,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#services" class="menu-btn">Projects</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -42,6 +42,9 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Shai Aloni</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="social">
+                    <span><i class="fa-brands fa-linkedin"></i></span><span><i class="fa-brands fa-square-github"></i></span>
+                </div>
                 <a href="#">Hire me</a>
             </div>
         </div>
@@ -53,11 +56,19 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/profile-1.jpeg" alt="">
+                    <img src="css/Shai profile pic.jpeg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Shai and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                    <p>
+                        I am a career changer seeking a new career as a software developer. I have always excelled in technology, but struggled to find a foot in the door without a degree or formal education. I was recently given an opportunity to complete a 12 week immersive which confirmed my interest and abilities as a software developer.
+
+                        My previous experiences as a director of operations and business owner has given me many transferable skills that I plan to use in my new career. This skills include my ability to learn and find the answers to the things I don’t know, persistence with challenges, and a true ownership of my work.
+                        
+                        I am searching for a job that allows me to utilize on my current repertoire of skills in JavaScript, React, Express, Mongoose etc. A great opportunity to me, would be an environment that allows me to learn and master new skills as well. 
+                    
+                        I would excel in a role where I needed to communicate with global stakeholders. I am a native Spanish speaker but I also speak English, Hebrew, and Portuguese fluently.
+                    </p>
                     <a href="#">Download Resume</a>
                 </div>
             </div>
@@ -67,27 +78,51 @@
     <!-- services section start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My services</h2>
+            <h2 class="title">My projects</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <a href="https://shaialoni.github.io/SEIR-6-6-Project-1/" target="_blank"><img src="images/canvaGame.png" alt=""></a>
+                        <div class="text">Web Game</div>
+                        <hr/>
+                        <p>Solo project
+                            <ul>
+                                <li>HTML Canvas game</li>
+                                <li>Class base game</li>
+                                <li>CSS for design</li>
+                            </ul>
+                        </p>
+                        <p>Canvas based web game. Utilized HTML, Canvas, JavaScript and CSS</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertising</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <a href="https://projectshare-client.herokuapp.com/projects/630d9d0485f0cd6074654af4"><img src="images/projectShare.png" alt="" target="_blank"></a>
+                        <div class="text">Project Share</div>
+                        <hr/>
+                        <p>Project Role: backend SME
+                            <ul>
+                                <li>MERN stack </li>
+                                <li>Developers platform to share projects</li>
+                                <li>Many to many relationship database</li>
+                                <li>Schema designing and AWS S3 cloud datastorage</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <a href="images/spotlight.png" target="_blank"><img src="images/projectShare.png" alt=""></a>
+                        <div class="text">Spotlight</div>
+                        <hr/>
+                        <p>Project Role: backend SME
+                            <ul>
+                                <li>MERN stack </li>
+                                <li>Social media app</li>
+                                <li>Many to many relationship database</li>
+                                <li>Schema designing and AWS S3 cloud datastorage</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
                </div>
@@ -96,7 +131,7 @@
     </section>
 
     <!-- skills section start -->
-    <section class="skills" id="skills">
+    <!-- <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
@@ -144,7 +179,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- teams section start -->
     <!-- <section class="teams" id="teams">
@@ -224,7 +259,12 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form 
+                        action="mailto:alonishai@gmail.com" 
+                        method="POST" 
+                        enctype="multipart/form-data"
+                        name="EmailForm"
+                    >
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
