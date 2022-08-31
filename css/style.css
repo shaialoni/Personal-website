@@ -223,7 +223,19 @@ section .title::after{
     background: none;
 }
 
-.home .social ul li{
+.home .home-content .social-links{
+    border: none;
+    background: none;
+    color: var(--color3);
+    padding: 5px;
+    margin: 5px;
+    font-size: 50px;
+}
+.home .home-content .social-links i{
+    
+}
+
+/* .home .social ul li{
     color: var(--color3);
     display: flex;
     align-items: center;
@@ -232,7 +244,7 @@ section .title::after{
     position: absolute;
     width: 35px;
     height: 35px;
-}
+} */
 /* about section styling */
 .about .title::after{
     content: "who i am";
