@@ -1,0 +1,21 @@
+:root {
+    --color1: #e7eaf6;
+    --color2: #a2a8d3;
+    --color3: #38598b;
+    --color4: #113f67;
+    --color5: #4586ff;
+}
+
+.button {
+    background-color: var(--color4);
+    border: none;
+    color: var(--color1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.button a {
+    color: var(--color1);
+}
