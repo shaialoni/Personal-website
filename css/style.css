@@ -375,24 +375,12 @@ section .title::after{
     color: var(--color5);
     background: none;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
+.skills .skills-content .right .img{
     display: flex;
+    width: 100px; 
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
-}
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: var(--color1);
-    position: relative;
 }
 .skills .skills-content .right .line::before{
     content: "";
