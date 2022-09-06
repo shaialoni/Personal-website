@@ -375,35 +375,11 @@ section .title::after{
     color: var(--color5);
     background: none;
 }
-.skills .skills-content .right .img{
+#skillsRight img{
     display: flex;
-    width: 100px; 
-    margin-bottom: 5px;
     align-items: center;
-    justify-content: space-between;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: var(--color5);
-}
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
+    width: 100%; 
+    margin: 15px;
 }
 
 /* teams section styling */
@@ -504,6 +480,9 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
+    color: var(--color4);
+}
+.contact .contact-content .info .sub-title a{
     color: var(--color4);
 }
 .contact .right form .fields{
@@ -643,6 +622,9 @@ section .title::after{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    }
+    #skillsRight img{
+        width: 50%;
     }
 }
 
