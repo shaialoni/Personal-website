@@ -52,7 +52,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 section .title{
     position: relative;
@@ -301,7 +301,7 @@ section .title::after{
     content: "what I did";
 }
 .services .serv-content .card{
-    height: 500px;
+    height: 550px;
     margin: 10px;
     width: calc(33% - 20px);
     background: var(--color4);
