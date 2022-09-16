@@ -259,6 +259,7 @@ section .title::after{
     width: 55%;
 }
 .about .about-content .right .text{
+    height: 35px;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -267,6 +268,7 @@ section .title::after{
     color: var(--color3);
 }
 .about .about-content .right p{
+    margin: 25px;
     text-align: justify;
 }
 .about .about-content .right a{
