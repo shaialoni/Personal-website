@@ -679,3 +679,8 @@ section .title::after{
         line-height: 38px;
     }
 }
+@media (max-width:435px) {
+   .text-3{
+    height: 50px;
+   }
+}
