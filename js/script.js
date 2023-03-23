@@ -33,7 +33,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    const strings = ["Software Developer", "Full Stack Engineer", "Father", "Multilingual"]
+    const strings = ["a Software Developer", "a Full Stack Engineer", "a Father", "Multilingual"]
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: strings,
